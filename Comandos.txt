@@ -1,0 +1,16 @@
+1- ir a la carpeta del proyecto
+2- hacer un git init
+3- git add *
+4 git status
+5- git config --global user.email luisandresmartinezb@gmail.com
+6- git config --global user.name "Luis"
+7- git commit -m
+
+*** Configurar el remoto***
+git remote -v --> vemos si tenemos creado
+
+git remote add pb https://github.com/BrayWyatt/Reto1.git
+
+git fetch pb
+git push origin master
+git push pb master
